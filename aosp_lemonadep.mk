@@ -21,13 +21,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lemonadep device
 $(call inherit-product, device/oneplus/lemonadep/device.mk)
 
-# Inherit some common Xtended stuff.
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+# Inherit some common Kraken stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit Google Camera
 $(call inherit-product, vendor/oneplus/apps/lemonadep/config.mk)
 
-PRODUCT_NAME := xtended_lemonadep
+PRODUCT_NAME := kraken_lemonadep
 PRODUCT_DEVICE := lemonadep
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -41,6 +41,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="OnePlus9Pro-user 11   release-keys"
 
 BUILD_FINGERPRINT := OnePlus/OnePlus9Pro_EEA/OnePlus9Pro:11/RKQ1.201105.002/2111112053:user/release-keys
-
-XTENDED_BUILD_TYPE := OFFICIAL
-XTENDED_BUILD_MAINTAINER := mukesh22584
