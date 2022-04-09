@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_lemonadep.mk
+    $(LOCAL_DIR)/spark_lemonadep.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_lemonadep-user \
-    xtended_lemonadep-userdebug \
-    xtended_lemonadep-eng
+    spark_lemonadep-user \
+    spark_lemonadep-userdebug \
+    spark_lemonadep-eng
