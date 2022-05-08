@@ -38,9 +38,14 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 # Official
 SPARK_BUILD_TYPE:= ㄗモ尺下モ匚匕工口れ
 
+PRODUCT_PRODUCT_PROPERTIES += \
+ro.spark.maintainer=乙乇尺ㄖ
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=OnePlus9Pro \
     TARGET_PRODUCT=OnePlus9Pro_EEA \
     PRIVATE_BUILD_DESC="OnePlus9Pro-user 11   release-keys"
 
 BUILD_FINGERPRINT := OnePlus/OnePlus9Pro_EEA/OnePlus9Pro:11/RKQ1.201105.002/2111112053:user/release-keys
+
+WITH_GAPPS=true
