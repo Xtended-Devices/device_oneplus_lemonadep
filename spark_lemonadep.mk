@@ -36,7 +36,7 @@ PRODUCT_SYSTEM_DEVICE := OnePlus9Pro
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 # Official
-SPARK_BUILD_TYPE:= ㄗモ尺下モ匚匕工口れ
+SPARK_BUILD_TYPE:= 刀乇千乇匚ㄒ乇刀
 
 PRODUCT_PRODUCT_PROPERTIES += \
 ro.spark.maintainer=乙乇尺ㄖ
