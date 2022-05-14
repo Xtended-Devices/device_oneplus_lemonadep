@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_lemonadep.mk
+    $(LOCAL_DIR)/cherish_lemonadep.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_lemonadep-user \
-    spark_lemonadep-userdebug \
-    spark_lemonadep-eng
+    cherish_lemonadep-user \
+    cherish_lemonadep-userdebug \
+    cherish_lemonadep-eng
