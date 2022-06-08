@@ -27,6 +27,7 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSystemUIResTarget \
+    OPlusWifiResTarget \
     XtendedFrameworksResTarget
 
 # Soong namespaces
